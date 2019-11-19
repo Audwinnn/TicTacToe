@@ -1,0 +1,111 @@
+body {
+  width: 1100px;
+  margin: -40px auto;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive;
+  padding: 10px 0;
+  -moz-user-select: none;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 15px;
+  min-width: 340px;
+  position: absolute;
+  margin-top: 220px;
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-last-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+h2 {
+  font-size:65px;
+  text-align: center;
+  height: 30px;
+}
+
+h3 {
+  font-size:35px;
+  text-align: center;
+  height: 20px;
+}
+
+span {
+  font-size: 70px;
+  margin-top: 10px;
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -5px;
+  height: 50px;
+  width: 130px;
+  font-family: "Comic Sans MS", cursive;
+  text-align: center;
+  border-radius: 10px;
+  border-color: red;
+}
+
+.hide{
+  display: none;
+}
+
+div[id^=row] {
+  overflow: hidden;
+  padding: 0;
+  margin: 0 auto;
+  width: 308px;
+  box-sizing: border-box;
+}
+
+div[id^="row-"] div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  float: left;
+}
+
+div[id^="row-"] div:first-child {
+  border-left: none;
+}
+div[id^="row-"] div:last-child {
+  border-right: none;
+}
+div[id="row-1"] div {
+  border-top: none;
+}
+div[id="row-3"] div {
+  border-bottom: none;
+}
+
+div[id^="row-"] {
+  clear: float;
+  width: 308px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+div.board {
+  width: 308px;
+  overflow: hidden;
+  margin: 0 auto;
+}
