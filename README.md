@@ -14,7 +14,9 @@ Description:
 5) Save the score in a  MySQL database. Show high score feature (web page showing player names and scores; from highest score to lowest score).
 
 Move the Tictactoe folder to C:\xampp\htdocs
+
 Open XAMPP -> Start MySQL and Apache.
+
 http://localhost/tictactoe/
 
 PLAY!
